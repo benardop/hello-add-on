@@ -8,7 +8,7 @@
 
 <body>
     <p>This add-in will insert the text 'Hello world!' in the MS Office document.</p>
-    <button id="helloButton">Say hello</button>
+    <button id="helloButton">Hello World</button>
 </body>
 
 <script>
@@ -23,7 +23,7 @@
         return Word.run((context) => {
 
             // insert a paragraph at the start of the document.
-            const paragraph = context.document.body.insertParagraph("Hello World", Word.InsertLocation.start);
+            const paragraph = context.document.body.insertParagraph("Hello, World!", Word.InsertLocation.start);
             
             // sync the context to run the previous API call, and return.
             return context.sync();
