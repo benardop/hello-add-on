@@ -10,16 +10,16 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Hello world"/>
   <Description DefaultValue="A simple hello world Office Add-in."/>
-  <IconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://benardop.github.io/hello-add-on/HelloAddOn/Assets.xcassets/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://benardop.github.io/hello-add-on/HelloAddOn/Assets.xcassets/assets/icon-64.png"/>
   <AppDomains>
-    <AppDomain>https://github.com/benardop/hello-add-on.git</AppDomain>
+    <AppDomain>https://benardop.github.io/hello-add-on/HelloAddOn</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Document"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://github.com/benardop/hello-add-on/blob/main/HelloAddOn/MyOffice.html" />
+    <SourceLocation DefaultValue="https://benardop.github.io/hello-add-on/HelloAddOn/index.html" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -65,12 +65,12 @@
     <Resources>
       <bt:Images>
         <bt:Image id="Icon.16x16" DefaultValue="https://github.com/benardop/hello-add-on/tree/main/HelloAddOn/Assets.xcassets/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://github.com/benardop/hello-add-on/tree/main/HelloAddOn/Assets.xcassets/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue=" https://github.com/benardop/hello-add-on/tree/main/HelloAddOn/Assets.xcassets/assets/icon-80.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue=" https://benardop.github.io/hello-add-on/HelloAddOn/Assets.xcassets/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://benardop.github.io/hello-add-on/HelloAddOn/Assets.xcassets/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="http://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/benardop/hello-add-on/blob/main/HelloAddOn/MyOffice.html" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://benardop.github.io/hello-add-on/HelloAddOn/index.html" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with the Hello world add-in!"/>
