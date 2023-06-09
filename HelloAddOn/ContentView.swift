@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if isShowingWebView {
-                WebView(urlString: Bundle.main.path(forResource: "MyOffice", ofType: "html")!)
+                WebView(urlString: Bundle.main.path(forResource: "index", ofType: "html")!)
                     .frame(height: 300)
             }
             

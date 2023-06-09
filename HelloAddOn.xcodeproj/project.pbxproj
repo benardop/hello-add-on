@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621688DD2A339BD200BF4983 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 621688DC2A339BD200BF4983 /* package.json */; };
 		623D40A12A27E44E00FD0378 /* HelloAddOnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623D40A02A27E44E00FD0378 /* HelloAddOnApp.swift */; };
 		623D40A32A27E44E00FD0378 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623D40A22A27E44E00FD0378 /* ContentView.swift */; };
 		623D40A52A27E44F00FD0378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623D40A42A27E44F00FD0378 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		621688DC2A339BD200BF4983 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
 		623D409D2A27E44E00FD0378 /* HelloAddOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAddOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		623D40A02A27E44E00FD0378 /* HelloAddOnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAddOnApp.swift; sourceTree = "<group>"; };
 		623D40A22A27E44E00FD0378 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				623D40A62A27E44F00FD0378 /* Preview Content */,
 				623D40AE2A27E61700FD0378 /* index.html */,
 				62A03AB52A3078FF00E736B5 /* manifest.xml */,
+				621688DC2A339BD200BF4983 /* package.json */,
 			);
 			path = HelloAddOn;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				623D40A52A27E44F00FD0378 /* Assets.xcassets in Resources */,
 				623D40AF2A27E61700FD0378 /* index.html in Resources */,
 				62A03AB62A30790000E736B5 /* manifest.xml in Resources */,
+				621688DD2A339BD200BF4983 /* package.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
